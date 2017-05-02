@@ -7,8 +7,8 @@
 	* *execute* by pressing the **return** key on your keyboard
 3. retrieve all of the code for this LiveLessons by executing `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
 4. [install the Docker "Stable channel"](https://docs.docker.com/docker-for-mac/install/)
-5. back in Terminal, execute `source TensorFlow-LiveLessons/let_jovyan_write.sh` so that you can write to files in the `TensorFlow-LiveLessons` directory from inside the Docker container we'll be creating momentarily 
-6. move into the `TensorFlow-LiveLessons` directory by executing `cd TensorFlow-LiveLessons`
+5. back in Terminal, execute `source TensorFlow-LiveLessons/let_jovyan_write.sh` so that you can write to files in the *TensorFlow-LiveLessons* directory from inside the Docker container we'll be creating momentarily 
+6. move into the *TensorFlow-LiveLessons* directory by executing `cd TensorFlow-LiveLessons`
 7. build the Docker container by executing `sudo docker build -t tensorflow-ll-stack .`
 8. when that build process has finished, run the Docker container by executing `sudo docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 tensorflow-ll-stack`
 9. in the web browser of your choice (e.g., Chrome), copy and paste the URL created by Docker (this begins with `http://localhost:8888/?token=` and should be visible near the bottom of your Terminal window) 
