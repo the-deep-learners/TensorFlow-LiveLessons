@@ -18,7 +18,7 @@ If you are using a Unix-based machine (including Mac OS X), and either...
 If you already have the dependencies (described above) configured as you like them, then you can simply:
 * `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
 
-## If you have a local Windows machine and/or want to take advantage of cloud compute services:
+## If you have a local Windows machine and/or want to take advantage of cloud compute services
 
 I have no idea how to run Jupyter or TensorFlow in Windows. Perhaps it can be done in a Docker container? If so, the step-by-step Mac OS X installation instructions I provided above can probably be adapted to Windows operating systems.
 
