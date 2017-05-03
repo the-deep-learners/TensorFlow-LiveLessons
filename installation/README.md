@@ -4,7 +4,7 @@ Installation will be easiest if you have some familiarity with the Unix command 
 
 In addition, if you're unfamiliar with using Python for data analysis (e.g., the pandas, scikit-learn, matplotlib packages), the [data analyst path of DataQuest](https://www.dataquest.io/path/data-analyst) will quickly get you up to speed -- steps one (Introduction to Python) and two (Intermediate Python and Pandas) provide the bulk of the essentials. 
 
-#### On a Unix-based machine (including Mac OS X) 
+## On a Unix-based machine (including Mac OS X) 
 
 If you are using a Unix-based machine (including Mac OS X), and either...
 
@@ -13,12 +13,12 @@ If you are using a Unix-based machine (including Mac OS X), and either...
 
 ...then follow the [step-by-step installation instructions](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md) for Mac OS X. I have a strong suspicion that if you are using another Unix-based operating system, you will have little difficulty adapting the instructions to your machine. 
 
-#### On a Unix-based machine (including Mac OS X) where you already have the dependencies
+## On a Unix-based machine (including Mac OS X) where you already have the dependencies
 
 If you already have the dependencies (described above) configured as you like them, then you can simply:
 * `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
 
-#### If you have a local Windows machine and/or want to take advantage of cloud compute services:
+## If you have a local Windows machine and/or want to take advantage of cloud compute services:
 
 I have no idea how to run Jupyter or TensorFlow in Windows. Perhaps it can be done in a Docker container? If so, the step-by-step Mac OS X installation instructions I provided above can probably be adapted to Windows operating systems.
 
