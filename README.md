@@ -7,4 +7,4 @@ Step-by-step installation guides and quick tips for working with Jupyter noteboo
 
 #### Notebooks
 
-Jupyter notebooks for running TensorFlow deep-learning models alongside the LiveLessons video tutorials can be found in the [notebooks](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/notebooks) directory. 
+Jupyter notebooks intended for use alongside the LiveLessons video tutorials can be found in the [notebooks](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/notebooks) directory. 
