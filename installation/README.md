@@ -8,15 +8,15 @@ In addition, if you're unfamiliar with using Python for data analysis (e.g., the
 
 If you are using a Unix-based machine (including Mac OS X), and either...
 
-	1. you are missing dependencies (provided in this repository's [Dockerfile](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/Dockerfile), which is essentially the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook) plus tensorflow, tflearn, and keras), or
-	2. **you generally find this entire installation page confusing**
+1. you are missing dependencies (provided in this repository's [Dockerfile](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/Dockerfile), which is essentially the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook) plus tensorflow, tflearn, and keras), or
+2. **you generally find this entire installation page confusing**
 
 ...then follow the [step-by-step installation instructions](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md) for Mac OS X. I have a strong suspicion that if you are using another Unix-based operating system, you will have little difficulty adapting the instructions to your machine. 
 
 #### On a Unix-based machine (including Mac OS X) where you already have the dependencies
 
 If you already have the dependencies (described above) configured as you like them, then you can simply:
-	* `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
+* `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
 
 #### If you have a local Windows machine and/or want to take advantage of cloud compute services:
 
