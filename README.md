@@ -1,5 +1,5 @@
 # TensorFlow-LiveLessons
-Code to accompany *Deep Learning with TensorFlow* LiveLessons in O'Reilly Safari
+This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons in O'Reilly Safari. 
 
 ## [Installation](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/installation)
 
