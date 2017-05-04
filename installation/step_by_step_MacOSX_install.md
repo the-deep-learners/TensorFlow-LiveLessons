@@ -13,4 +13,10 @@
 9. when that build process has finished, run the Docker container by executing `sudo docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 tensorflow-ll-stack`
 10. in the web browser of your choice (e.g., Chrome), copy and paste the URL created by Docker (this begins with `http://localhost:8888/?token=` and should be visible near the bottom of your Terminal window) 
 
-You can shutdown the Jupyter notebook by returning to the Terminal session that is running it and hitting the **control** and **c** keys simultaneously on your keyboard. You can restart the Jupyter notebook later by following steps nine and ten alone. 
+## Shutdown
+
+You can shutdown the Jupyter notebook by returning to the Terminal session that is running it and hitting the **control** and **c** keys simultaneously on your keyboard. 
+
+## Restart
+
+You can restart the Jupyter notebook later by following steps nine and ten alone. 
