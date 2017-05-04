@@ -1,4 +1,6 @@
-# Step-by-Step Installation Instructions on Mac OS X
+# Step-by-Step Instructions on Mac OS X
+
+## Install
 
 1. open the Terminal application ([like this](http://www.wikihow.com/Open-a-Terminal-Window-in-Mac))
 2. to install in your home directory (this is my recommended default):
