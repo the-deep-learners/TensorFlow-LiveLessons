@@ -3,7 +3,7 @@
 N.B.: These are **rough notes** for creating an Ubuntu machine on Google Cloud Platform that runs Dockerized Jupyter notebooks. 
 
 1. create an instance in [Google Cloud Platform Compute Engine](https://console.cloud.google.com/compute), Amazon Web Services, or another cloud-computing provider 
-	1. `us-east1-d` if GPU desired in U.S. (April 2017)
+	1. `us-east1-d` if GPU desired in U.S. on GCP (April 2017)
 	2. boot disk: 
 		1. select `Ubuntu 16.10`, i.e., `amd64 yakkety` for Docker compatibility later
 		2. select `SSD` if you're willing to pay for the significant speed benefits
