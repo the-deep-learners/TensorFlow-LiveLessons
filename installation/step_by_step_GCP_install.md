@@ -1,5 +1,6 @@
-# Step-by-Step Instructions
-#### these are my **rough notes** for creating an Ubuntu machine on Google Cloud Platform that runs Dockerized Jupyter notebooks
+# Step-by-Step Instructions for Installation on a New GCP Ubuntu Instance
+
+N.B.: These are **rough notes** for creating an Ubuntu machine on Google Cloud Platform that runs Dockerized Jupyter notebooks. 
 
 1. create an instance in [Google Cloud Platform Compute Engine](https://console.cloud.google.com/compute), Amazon Web Services, or another cloud-computing provider 
 	1. `us-east1-d` if GPU desired in U.S. (April 2017)
