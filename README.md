@@ -1,5 +1,5 @@
 # TensorFlow-LiveLessons
-This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons available in O'Reilly Safari. 
+This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons that will become available within the O'Reilly Safari environment in Summer 2017. 
 
 ## [Installation](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/installation)
 
