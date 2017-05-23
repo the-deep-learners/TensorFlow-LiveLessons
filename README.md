@@ -1,9 +1,9 @@
 # TensorFlow-LiveLessons
-This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons in O'Reilly Safari. 
+This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons that will become available within the O'Reilly Safari environment in Summer 2017. 
 
 ## [Installation](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/installation)
 
-...this directory features step-by-step installation guides and quick tips for working with Jupyter notebooks within Docker containers. 
+...this directory features step-by-step installation guides for running the code in this repository. 
 
 ## [Notebooks](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/notebooks)
 
