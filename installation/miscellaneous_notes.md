@@ -8,8 +8,8 @@
 #### to install jupyter vim bindings within Docker container:
 
 1. install notebook extensions (as in [here](https://github.com/ipython-contrib/jupyter_contrib_nbextensions#installation))
-        1. `pip install jupyter_contrib_nbextensions`
-        2. `jupyter contrib nbextension install --user`
+        * `pip install jupyter_contrib_nbextensions`
+        * `jupyter contrib nbextension install --user`
 2. following the [instructions](https://github.com/lambdalisue/jupyter-vim-binding/wiki/Installation) doesn't work because you need to activate the notebook after making these changes... I imagine the same is true for themes
 
 #### to make your own Docker container:
