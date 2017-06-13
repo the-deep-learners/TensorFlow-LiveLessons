@@ -6,7 +6,7 @@
 2. to install in your home directory (this is my recommended default):
 	* type `cd ~` into the command-line prompt and 
 	* *execute* by pressing the **return** key on your keyboard
-3. retrieve all of the code for this LiveLessons by executing `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
+3. retrieve all of the code for this LiveLessons by executing `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git` (if you haven't used `git` before, you may be prompted to install Xcode -- do it!)
 4. [install the Docker "Stable channel"](https://docs.docker.com/docker-for-mac/install/)
 5. start Docker, e.g., by using Finder to navigate to your Applications folder and double-clicking on the Docker icon
 6. back in Terminal, execute `source TensorFlow-LiveLessons/installation/let_jovyan_write.sh` so that you can write to files in the *TensorFlow-LiveLessons* directory from inside the Docker container we'll be creating momentarily 
