@@ -73,7 +73,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 * apply the theory learned throughout Lesson Two to create an [intermediate-depth image classifier](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_keras.ipynb)
 * builds on, and greatly outperforms, the shallow architecture from Section 1.3 
 
-### Lesson Three
+### Lesson Three: Convolutional Networks
 
 #### 3.1 Essential Theory II -- Mini-Batches, Unstable Gradients, and Avoiding Overfitting
 
@@ -89,4 +89,88 @@ Below is the lesson-by-lesson sequence in which I covered them:
       * momentum
       * Adam
    * unstable gradients
-     * 
+     * vanishing
+     * exploding
+   * avoiding overfitting / model generalization
+     * L1/L2 regularization
+     * dropout
+     * artificial data set expansion
+   * batch normalization
+   * more layers
+     * max-pooling
+     * flatten
+
+#### 3.2 Applying Deep Net Theory to Code II
+
+* apply the theory learned in the previous section to create a [deep, dense net for image classification](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/deep_net_in_keras.ipynb) 
+* builds on, and outperforms, the intermediate architecture from Section 2.5
+
+#### 3.3 Introduction to Convolutional Neural Networks for Visual Recognition
+
+* whiteboard through an intuitive explanation of what convolutional layers are and how they're so effective
+
+#### 3.4 Classic ConvNet Architectures -— LeNet-5
+
+* apply the theory learned in the previous section to create a [deep convolutional net for image classification](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/lenet_in_keras.ipynb) that is inspired by the classic LeNet-5 neural network introduced in section 1.1
+
+#### 3.5 Classic ConvNet Architectures -— AlexNet and VGGNet
+
+* classify color images of flowers with two very deep convolutional networks inspired by contemporary prize-winning model architectures: [AlexNet](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/alexnet_in_keras.ipynb) and [VGGNet](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/vggnet_in_keras.ipynb)
+
+#### 3.6 TensorBoard and the Interpretation of Model Outputs
+
+* return to the networks from the previous section, adding code to output results to the TensorBoard deep learning results-visualization tool
+* explore TensorBoard and explain how to interpret model results within it
+
+### Lesson Four: Introduction to TensorFlow
+
+#### 4.1 Comparison of the Leading Deep Learning Libraries
+
+* discuss the relative strengths, weaknesses, and common applications of the leading deep learning libraries:
+  * Caffe
+  * Torch
+  * Theano
+  * TensorFlow
+  * and the high-level APIs TFLearn and Keras
+* conclude that, for the broadest set of applications, TensorFlow is the best option
+
+#### 4.2 Introduction to TensorFlow
+
+* introduce TensorFlow graphs and related terminology:
+  * ops
+  * tensors
+    * Variables
+    * placeholders
+  * feeds
+  * fetches
+* build [simple TensorFlow graphs](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/first_tensorflow_graphs.ipynb)
+* build [neurons in TensorFlow](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/first_tensorflow_neurons.ipynb)
+
+#### 4.3 Fitting Models in TensorFlow
+
+* fit a simple line in TensorFlow:
+  * [by considering individual data points](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/point_by_point_intro_to_tensorflow.ipynb)
+  * [while taking advantage of tensors](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/tensor-fied_intro_to_tensorflow.ipynb)
+  * [with batches sampled from millions of data points](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intro_to_tensorflow_times_a_million.ipynb)
+
+#### 4.4 Dense Nets in TensorFlow
+
+* create a [dense neural net](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_tensorflow.ipynb) in TensorFlow with an architecture identical to the intermediate one built in Keras in Section 2.5
+
+#### 4.5 Deep Convolutional Nets in TensorFlow
+
+* create a [deep convolutional neural net](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/lenet_in_tensorflow.ipynb) in TensorFlow with an architecture identical to the LeNet-inspired one built in Keras in Section 3.4
+
+### Lesson Five: Improving Deep Networks
+
+#### 5.1 Improving Performance and Tuning Hyperparameters
+
+* detail systematic steps for improving the performance of deep neural nets, including by tuning hyperparameters
+
+#### 5.2 How to Built Your Own Deep Learning Project
+
+* specific steps for designing and evaluating your own deep learning project
+
+#### 5.3 Resources for Self-Study
+
+* topics worth investing time in to become an expert deployer of deep learning models
