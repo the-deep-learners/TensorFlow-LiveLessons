@@ -24,8 +24,13 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 #### 1.3 An Introductory Artificial Neural Network
 
-* introduces the MNIST digit data set
-* introduces a gentle quantity of deep learning terminology by whiteboarding:
-  * a shallow network architecture
-  * text
 * get your hands dirty with a [simple-as-possible neural network](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/shallow_net_in_keras.ipynb) for classifying handwritten digits
+* introduces Jupyter notebooks and their most useful hot keys
+* introduces a gentle quantity of deep learning terminology by whiteboarding through:
+  * the MNIST digit data set
+  * the preprocessing of images for analysis with a neural network
+  * a shallow network architecture
+
+### Lesson Two: How Deep Learning Works
+
+#### 2.1 The Families of Deep Neural Nets and their Applications
