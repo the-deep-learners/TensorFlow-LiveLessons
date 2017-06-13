@@ -1,4 +1,4 @@
-# Step-by-Step Instructions on Mac OS X
+# Step-by-Step Instructions for Mac OS X
 
 ## Install
 
