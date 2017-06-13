@@ -13,7 +13,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 ### Lesson One: Introduction to Deep Learning
 
-#### 1.1 -- Neural Networks and Deep Learning
+#### 1.1 --- Neural Networks and Deep Learning
 
 * via analogy to their biological inspirations, this section introduces Artificial Neural Networks and how they developed to their predominantly *deep* architectures today
 
