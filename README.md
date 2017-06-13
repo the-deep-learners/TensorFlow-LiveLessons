@@ -36,11 +36,11 @@ Below is the lesson-by-lesson sequence in which I covered them:
 #### 2.1 The Families of Deep Neural Nets and their Applications
 
 * talk through the function and popular applications of the predominant modern families of deep neural nets:
- * Dense / Fully-Connected
- * Convolutional Networks (ConvNets)
- * Recurrent Neural Networks (RNNs) / Long Short-Term Memory units (LSTMs)
- * Reinforcement Learning
- * Generative Adversarial Networks
+  * Dense / Fully-Connected
+  * Convolutional Networks (ConvNets)
+  * Recurrent Neural Networks (RNNs) / Long Short-Term Memory units (LSTMs)
+  * Reinforcement Learning
+  * Generative Adversarial Networks
 
 #### 2.2 Essential Theory I—Neural Units, Cost Functions, Gradient Descent, and Backpropagation
 
