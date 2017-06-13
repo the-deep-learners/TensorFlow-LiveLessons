@@ -63,3 +63,30 @@ Below is the lesson-by-lesson sequence in which I covered them:
 #### 2.3 TensorFlow Playground -- Visualizing a Deep Net in Action
 
 * leverage [TensorFlow Playground](http://playground.tensorflow.org/) to interactively visualize the theory from the preceding section
+
+#### 2.4 Data Sets for Deep Learning
+
+* overview of canonical data sets for image classification and meta-resources for data sets ideally suited to deep learning
+
+#### 2.5 Applying Deep Net Theory to Code I
+
+* apply the theory learned throughout Lesson Two to create an [intermediate-depth image classifier](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_keras.ipynb)
+* builds on, and greatly outperforms, the shallow architecture from Section 1.3 
+
+### Lesson Three
+
+#### 3.1 Essential Theory II -- Mini-Batches, Unstable Gradients, and Avoiding Overfitting
+
+* add to our state-of-the-art deep learning toolkit by delving further into essential theory, specifically:
+  * weight initialization
+    * uniform
+    * normal
+    * Xavier Glorot
+  * **stochastic** gradient descent
+    * learning rate
+    * batch size
+    * second-order gradient learning
+      * momentum
+      * Adam
+   * unstable gradients
+     * 
