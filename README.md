@@ -1,5 +1,5 @@
 # TensorFlow-LiveLessons
-This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons that will become available within the O'Reilly Safari environment in Summer 2017. 
+This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons that will become available within the [O'Reilly Safari](https://www.safaribooksonline.com/) environment in August 2017. 
 
 ## Installation
 
@@ -7,7 +7,7 @@ Step-by-step guides for running the code in this repository can be found in the 
 
 ## Notebooks
 
-All of the code that I cover in the LiveLessons can be found in [this directory](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/notebooks) as Jupyter notebooks. 
+All of the code that I cover in the LiveLessons can be found in [this directory](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/notebooks) as [Jupyter notebooks](http://jupyter.org/). 
 
 Below is the lesson-by-lesson sequence in which I covered them: 
 
@@ -19,4 +19,4 @@ Via analogy to their biological inspirations, this section introduces Artificial
 
 #### 1.2 Running the Code in These LiveLessons
 
-This section covers the [installation directory](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/installation) introduced above, 
+This section covers the [installation directory](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/installation) mentioned above, going over [step-by-step installation of TensorFlow on Mac OS X](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md), a process that may be instructive for users of any Unix-like operating system. 
