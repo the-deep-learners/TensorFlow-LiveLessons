@@ -19,4 +19,8 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 #### 1.2 Running the Code in These LiveLessons
 
-* covers the [installation directory](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/installation) mentioned above, going over [step-by-step installation of TensorFlow on Mac OS X](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md), a process that may be instructive for users of any Unix-like operating system
+* goes over the [installation directory](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/installation) mentioned above, discussing the options for working through my Jupyter notebooks
+* details the [step-by-step installation of TensorFlow on Mac OS X](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md), a process that may be instructive for users of any Unix-like operating system
+
+#### 1.3 An Introductory Artificial Neural Network
+
