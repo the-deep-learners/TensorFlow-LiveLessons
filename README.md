@@ -1,6 +1,10 @@
 # TensorFlow-LiveLessons
 This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons that will become available within the [O'Reilly Safari](https://www.safaribooksonline.com/) environment in August 2017. 
 
+## Blog Post
+
+A high-level summary of these LiveLessons, complete with photos, is available [here](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad). 
+
 ## Installation
 
 Step-by-step guides for running the code in this repository can be found in the [installation directory](https://github.com/the-deep-learners/TensorFlow-LiveLessons/tree/master/installation). 
@@ -186,8 +190,5 @@ Below is the lesson-by-lesson sequence in which I covered them:
 * topics worth investing time in to become an expert deployer of deep learning models
 
 ---
+The End of *Deep Learning with TensorFlow* LiveLessons
 ---
-
-## Blog Post
-
-A high-level summary of these LiveLessons, complete with photos, is available [here](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad). 
