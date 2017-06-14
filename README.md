@@ -33,6 +33,8 @@ Below is the lesson-by-lesson sequence in which I covered them:
   * the preprocessing of images for analysis with a neural network
   * a shallow network architecture
 
+---
+
 ### Lesson Two: How Deep Learning Works
 
 #### 2.1 The Families of Deep Neural Nets and their Applications
@@ -74,6 +76,8 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 * apply the theory learned throughout Lesson Two to create an [intermediate-depth image classifier](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_keras.ipynb)
 * builds on, and greatly outperforms, the shallow architecture from Section 1.3 
+
+---
 
 ### Lesson Three: Convolutional Networks
 
@@ -124,6 +128,8 @@ Below is the lesson-by-lesson sequence in which I covered them:
 * return to the networks from the previous section, adding code to output results to the TensorBoard deep learning results-visualization tool
 * explore TensorBoard and explain how to interpret model results within it
 
+---
+
 ### Lesson Four: Introduction to TensorFlow
 
 #### 4.1 Comparison of the Leading Deep Learning Libraries
@@ -162,6 +168,8 @@ Below is the lesson-by-lesson sequence in which I covered them:
 #### 4.5 Deep Convolutional Nets in TensorFlow
 
 * create a [deep convolutional neural net](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/lenet_in_tensorflow.ipynb) in TensorFlow with an architecture identical to the LeNet-inspired one built in Keras in Section 3.4
+
+---
 
 ### Lesson Five: Improving Deep Networks
 
