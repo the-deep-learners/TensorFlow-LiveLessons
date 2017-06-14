@@ -185,6 +185,9 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 * topics worth investing time in to become an expert deployer of deep learning models
 
+---
+---
+
 ## Blog Post
 
 A high-level summary of these LiveLessons, complete with photos, is available [here](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad). 
