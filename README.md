@@ -186,5 +186,4 @@ Below is the lesson-by-lesson sequence in which I covered them:
 * topics worth investing time in to become an expert deployer of deep learning models
 
 ---
-The End of *Deep Learning with TensorFlow* LiveLessons
 ---
