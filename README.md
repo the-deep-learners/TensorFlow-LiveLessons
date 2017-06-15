@@ -56,7 +56,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
     * Rectified Linear Units (ReLU)
   * cost functions
     * quadratic
-    * cross-entropy
+    * cross-entropy (wee notebook [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/cross_entropy_cost.ipynb))
   * gradient descent
   * backpropagation via the chain rule
   * layer types
