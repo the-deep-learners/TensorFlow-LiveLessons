@@ -1,5 +1,5 @@
 # TensorFlow-LiveLessons
-This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons that will become available within the [O'Reilly Safari](https://www.safaribooksonline.com/) environment in August 2017. A high-level summary of these LiveLessons, complete with photos, is available [on Medium](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad). 
+This repository is home to the code that accompanies the *Deep Learning with TensorFlow* LiveLessons that will become available within the [Safari Books](https://www.safaribooksonline.com/) environment in August 2017. A high-level summary of these LiveLessons, complete with photos, is available [on Medium](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad). 
 
 ## Installation
 
