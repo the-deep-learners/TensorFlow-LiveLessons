@@ -2,7 +2,8 @@
 
 #### to enter into the Docker container on the command line: 
 
-1. use `sudo docker ps` to see the `NAME` that was randomly generated2. `sudo docker exec -it <NAME> bash` to enter into the session (N.B.: nothing will be saved)
+1. use `sudo docker ps` to see the `NAME` that was randomly generated
+2. `sudo docker exec -it <NAME> bash` to enter into the session (N.B.: nothing will be saved)
 
 
 #### to install jupyter vim bindings within Docker container:

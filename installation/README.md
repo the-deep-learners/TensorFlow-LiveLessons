@@ -15,11 +15,10 @@ If you are using a Unix-based machine (including Mac OS X), and either...
 
 ## On a Unix-based machine (including Mac OS X) where you already have the dependencies
 
-If you already have the dependencies (described above) configured as you like them, then you can simply:
-* `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
+If you already familiar with `git` and have the dependencies (described above) configured as you like them, then you can simply `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`. 
 
 ## If you have a local Windows machine and/or want to take advantage of cloud compute services
 
-I have no idea how to run Jupyter or TensorFlow in Windows. Perhaps it can be done in a Docker container? If so, the step-by-step Mac OS X installation instructions I provided above can probably be adapted to Windows operating systems.
+Anecdotally, based on the experiences of a handful of members of my [Deep Learning Study Group](deeplearningstudygroup.org), installing and running TensorFlow from a Windows operating system is, at best, a headache. Perhaps it can be done in a Docker container? If so, the step-by-step Mac OS X installation instructions I provided above can probably be adapted to Windows operating systems.
 
 Regardless, if you'd like to enjoy the power and flexibility of cloud computing, you can spin up a machine with Google Cloud Compute, Amazon Web Services, Microsoft Azure, or other providers. My step-by-step process for creating an Ubuntu instance with Google Cloud Compute and launching my Dockerized Jupyter notebook is available [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_GCP_install.md). 
