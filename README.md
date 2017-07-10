@@ -51,7 +51,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 * the following essential deep learning concepts are explained with intuitive, graphical explanations: 
   * neural units and activation functions
     * perceptron
-    * sigmoid (wee notebook [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/sigmoid_function.ipynb))
+    * sigmoid (`[sigmoid_function.ipynb]`(https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/sigmoid_function.ipynb))
     * tanh
     * Rectified Linear Units (ReLU)
 
