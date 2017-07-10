@@ -84,7 +84,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 ### Lesson Three: Convolutional Networks
 
-#### 3.1 Essential Theory II -- Mini-Batches, Unstable Gradients, and Avoiding Overfitting
+#### 3.1 Essential Theory III -- Mini-Batches, Unstable Gradients, and Avoiding Overfitting
 
 * add to our state-of-the-art deep learning toolkit by delving further into essential theory, specifically:
   * weight initialization
