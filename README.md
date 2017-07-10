@@ -77,7 +77,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 #### 2.5 Applying Deep Net Theory to Code I
 
-* apply the theory learned throughout Lesson Two to create an intermediate-depth image classifier [intermediate_net_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_keras.ipynb)
+* apply the theory learned throughout Lesson Two to create an intermediate-depth image classifier ([intermediate_net_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_keras.ipynb))
 * builds on, and greatly outperforms, the shallow architecture from Section 1.3 
 
 ---
