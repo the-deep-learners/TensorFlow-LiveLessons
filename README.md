@@ -59,13 +59,13 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 * cost functions
     * quadratic
-    * cross-entropy (wee notebook [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/cross_entropy_cost.ipynb))
+    * cross-entropy ([cross_entropy_cost.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/cross_entropy_cost.ipynb))
   * gradient descent
   * backpropagation via the chain rule
   * layer types
     * input
     * dense / fully-connected
-    * softmax output (another wee notebook [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/softmax_demo.ipynb))
+    * softmax output ([softmax_demo.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/softmax_demo.ipynb))
     
 #### 2.3 TensorFlow Playground -- Visualizing a Deep Net in Action
 
@@ -77,7 +77,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 #### 2.5 Applying Deep Net Theory to Code I
 
-* apply the theory learned throughout Lesson Two to create an [intermediate-depth image classifier](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_keras.ipynb)
+* apply the theory learned throughout Lesson Two to create an intermediate-depth image classifier [intermediate_net_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_keras.ipynb)
 * builds on, and greatly outperforms, the shallow architecture from Section 1.3 
 
 ---
@@ -111,7 +111,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 #### 3.2 Applying Deep Net Theory to Code II
 
-* apply the theory learned in the previous section to create a [deep, dense net for image classification](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/deep_net_in_keras.ipynb) 
+* apply the theory learned in the previous section to create a deep, dense net for image classification ([deep_net_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/deep_net_in_keras.ipynb))
 * builds on, and outperforms, the intermediate architecture from Section 2.5
 
 #### 3.3 Introduction to Convolutional Neural Networks for Visual Recognition
@@ -120,11 +120,11 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 #### 3.4 Classic ConvNet Architectures -— LeNet-5
 
-* apply the theory learned in the previous section to create a [deep convolutional net for image classification](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/lenet_in_keras.ipynb) that is inspired by the classic LeNet-5 neural network introduced in section 1.1
+* apply the theory learned in the previous section to create a deep convolutional net for image classification ([lenet_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/lenet_in_keras.ipynb)) that is inspired by the classic LeNet-5 neural network introduced in section 1.1
 
 #### 3.5 Classic ConvNet Architectures -— AlexNet and VGGNet
 
-* classify color images of flowers with two very deep convolutional networks inspired by contemporary prize-winning model architectures: [AlexNet](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/alexnet_in_keras.ipynb) and [VGGNet](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/vggnet_in_keras.ipynb)
+* classify color images of flowers with two very deep convolutional networks inspired by contemporary prize-winning model architectures: AlexNet ([alexnet_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/alexnet_in_keras.ipynb)) and VGGNet ([vggnet_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/vggnet_in_keras.ipynb))
 
 #### 3.6 TensorBoard and the Interpretation of Model Outputs
 
@@ -154,23 +154,23 @@ Below is the lesson-by-lesson sequence in which I covered them:
     * placeholders
   * feeds
   * fetches
-* build [simple TensorFlow graphs](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/first_tensorflow_graphs.ipynb)
-* build [neurons in TensorFlow](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/first_tensorflow_neurons.ipynb)
+* build simple TensorFlow graphs ([first_tensorflow_graphs.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/first_tensorflow_graphs.ipynb))
+* build neurons in TensorFlow ([first_tensorflow_neurons.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/first_tensorflow_neurons.ipynb))
 
 #### 4.3 Fitting Models in TensorFlow
 
 * fit a simple line in TensorFlow:
-  * [by considering individual data points](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/point_by_point_intro_to_tensorflow.ipynb)
-  * [while taking advantage of tensors](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/tensor-fied_intro_to_tensorflow.ipynb)
-  * [with batches sampled from millions of data points](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intro_to_tensorflow_times_a_million.ipynb)
+  * by considering individual data points ([point_by_point_intro_to_tensorflow.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/point_by_point_intro_to_tensorflow.ipynb))
+  * while taking advantage of tensors ([tensor-fied_intro_to_tensorflow.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/tensor-fied_intro_to_tensorflow.ipynb))
+  * with batches sampled from millions of data points ([intro_to_tensorflow_times_a_million.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intro_to_tensorflow_times_a_million.ipynb))
 
 #### 4.4 Dense Nets in TensorFlow
 
-* create a [dense neural net](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_tensorflow.ipynb) in TensorFlow with an architecture identical to the intermediate one built in Keras in Section 2.5
+* create a dense neural net ([intermediate_net_in_tensorflow.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/intermediate_net_in_tensorflow.ipynb)) in TensorFlow with an architecture identical to the intermediate one built in Keras in Section 2.5
 
 #### 4.5 Deep Convolutional Nets in TensorFlow
 
-* create a [deep convolutional neural net](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/lenet_in_tensorflow.ipynb) in TensorFlow with an architecture identical to the LeNet-inspired one built in Keras in Section 3.4
+* create a deep convolutional neural net ([lenet_in_tensorflow.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/lenet_in_tensorflow.ipynb)) in TensorFlow with an architecture identical to the LeNet-inspired one built in Keras in Section 3.4
 
 ---
 
