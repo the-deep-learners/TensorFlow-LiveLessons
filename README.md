@@ -26,7 +26,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 #### 1.3 An Introductory Artificial Neural Network
 
-* get your hands dirty with a [simple-as-possible neural network](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/shallow_net_in_keras.ipynb) for classifying handwritten digits
+* get your hands dirty with a simple-as-possible neural network ([shallow_net_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/shallow_net_in_keras.ipynb)) for classifying handwritten digits
 * introduces Jupyter notebooks and their most useful hot keys
 * introduces a gentle quantity of deep learning terminology by whiteboarding through:
   * the MNIST digit data set
@@ -51,7 +51,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 * the following essential deep learning concepts are explained with intuitive, graphical explanations: 
   * neural units and activation functions
     * perceptron
-    * sigmoid (`[sigmoid_function.ipynb]`(https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/sigmoid_function.ipynb))
+    * sigmoid ([sigmoid_function.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/sigmoid_function.ipynb))
     * tanh
     * Rectified Linear Units (ReLU)
 
