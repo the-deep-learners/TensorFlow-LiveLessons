@@ -46,7 +46,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
   * Reinforcement Learning
   * Generative Adversarial Networks
 
-#### 2.2 Essential Theory I —- Neural Units, Cost Functions, Gradient Descent, and Backpropagation
+#### 2.2 Essential Theory I —- Neural Units
 
 * the following essential deep learning concepts are explained with intuitive, graphical explanations: 
   * neural units and activation functions
@@ -54,7 +54,10 @@ Below is the lesson-by-lesson sequence in which I covered them:
     * sigmoid (wee notebook [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/sigmoid_function.ipynb))
     * tanh
     * Rectified Linear Units (ReLU)
-  * cost functions
+
+#### 2.3 Essential Theory II -- Cost Functions, Gradient Descent, and Backpropagation
+
+* cost functions
     * quadratic
     * cross-entropy (wee notebook [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/cross_entropy_cost.ipynb))
   * gradient descent
