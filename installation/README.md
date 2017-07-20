@@ -17,8 +17,24 @@ If you are using a Unix-based machine (including Mac OS X), and either...
 
 If you already familiar with `git` and have the dependencies (described above) configured as you like them, then you can simply `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`. 
 
-## If you have a local Windows machine and/or want to take advantage of cloud compute services
+## On a Windows machine
 
-Anecdotally, based on the experiences of a handful of members of my [Deep Learning Study Group](deeplearningstudygroup.org), installing and running TensorFlow from a Windows operating system is, at best, a headache. Perhaps it can be done in a Docker container? If so, the step-by-step Mac OS X installation instructions I provided above can probably be adapted to Windows operating systems.
+These steps are for users who installed the [Anaconda](https://www.continuum.io/downloads) Python 3 distribution, but other such distributions, e.g. [WinPython](https://winpython.github.io/), [Canopy](https://store.enthought.com/downloads/) should work, too.
+
+### Install TensorFlow for CPU
+1. Create a conda virtual environment: `C:\> conda create -n tf python=3.5`
+2. Activate the new environment: `C:\> activate tf`. Your prompt should now change to: `(tf) C:\>`
+3. Run `(tf) C:\> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.2.1-cp35-cp35m-win_amd64.whl`.
+
+### Install TensorFlow for GPU
+1. Install Visual Studio **2015** Community Edition from https://my.visualstudio.com (requires registering a free account). Make sure "Visual C++" is checked.
+2. Install [CUDA 8](https://developer.nvidia.com/cuda-downloads).
+3. Download [cuDNN](https://developer.nvidia.com/rdp/cudnn-download) v5.1, which **isn't** the latest version, and unzip its contents to where you installed CUDA.
+4. Create a conda virtual environment: `C:\> conda create -n tf python=3.5`
+5. Activate the new environment: `C:\> activate tf`. Your prompt should now change to: `(tf) C:\>`
+6. Run `(tf) C:\> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.2.1-cp35-cp35m-win_amd64.whl`.
+
+
+## If you want to take advantage of cloud compute services
 
 Regardless, if you'd like to enjoy the power and flexibility of cloud computing, you can spin up a machine with Google Cloud Compute, Amazon Web Services, Microsoft Azure, or other providers. My step-by-step process for creating an Ubuntu instance with Google Cloud Compute and launching my Dockerized Jupyter notebook is available [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_GCP_install.md). 
