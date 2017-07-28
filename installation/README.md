@@ -17,7 +17,7 @@ The dependencies are provided in this repository's [Dockerfile](https://github.c
 
 If you have these packages configured as you like them, you can simply:
 
-`git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`. 
+`git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
 
 ### Where You Are Missing Dependencies
 
