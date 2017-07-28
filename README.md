@@ -3,11 +3,11 @@ This repository is home to the code that accompanies the *Deep Learning with Ten
 
 ## Prerequisites
 
-## Command Line
+#### Command Line
 
 Working through these LiveLessons will be easiest if you are familiar with the **Unix command line** basics. A tutorial of these fundamentals can be found [here](https://learnpythonthehardway.org/book/appendixa.html). 
 
-## Python for Data Analysis
+#### Python for Data Analysis
 
 In addition, if you're unfamiliar with using **Python** for data analysis (e.g., the **pandas**, scikit-learn, matplotlib packages), the [data analyst path of DataQuest](https://www.dataquest.io/path/data-analyst) will quickly get you up to speed -- steps one (*Introduction to Python*) and two (*Intermediate Python and Pandas*) provide the bulk of the essentials. 
 
