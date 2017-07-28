@@ -43,7 +43,7 @@ These steps are for users who installed the [Anaconda](https://www.continuum.io/
 
 ### Install TensorFlow for GPU
 
-You shouldn't *need* a GPU for these LiveLessons, but some of the later notebooks will run much more quickly if you do. Instructions for setting this up are [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/windows_TF_GPU.md).
+You shouldn't *need* a GPU for these LiveLessons, but some of the later notebooks in these LiveLessons will run much more quickly if you do. Instructions for setting this up are [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/windows_TF_GPU.md).
 
 
 
