@@ -21,15 +21,12 @@ If you have these packages configured as you like them, you can simply:
 
 ### Where You Are Missing Dependencies
 
-**JK MOVE THIS SUBSECTION INTO ITS OWN MD FILE**
+1. Get Docker CE for, e.g., [Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+2. Follow all the steps in my [Step-by-Step Instructions for Mac](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md) that involve executing code at the command line. That is, execute all steps but one, four and five. 
 
-1. step one
-2. step two
-
-### In the Cloud
+### In a Fresh Cloud Instance
 
 If you'd like to enjoy the power and flexibility of cloud computing, you can spin up a machine with Google Cloud Compute, Amazon Web Services, Microsoft Azure, or other providers. My step-by-step process for creating an Ubuntu instance with Google Cloud Compute and launching Dockerized Jupyter notebooks is available [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_GCP_install.md). 
-
 
 ## Windows
 
