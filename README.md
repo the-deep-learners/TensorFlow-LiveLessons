@@ -21,8 +21,6 @@ All of the code that I cover in the LiveLessons can be found in [this directory]
 
 Below is the lesson-by-lesson sequence in which I covered them: 
 
----
-
 ### Lesson One: Introduction to Deep Learning
 
 #### 1.1 Neural Networks and Deep Learning
