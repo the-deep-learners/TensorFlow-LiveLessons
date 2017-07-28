@@ -42,6 +42,8 @@ These steps are for users who installed the [Anaconda](https://www.continuum.io/
 
 You shouldn't *need* a GPU for these LiveLessons, but some of the later notebooks in these LiveLessons will run much more quickly if you do. Instructions for setting this up are [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/windows_TF_GPU.md).
 
+### Running Dockerized Jupyter Notebooks
 
+Currently, instructions for running the these LiveLessons' Jupyter notebooks from within a Docker container are unavailable on Windows. If you have experience doing this, please feel free to make a pull request and fill it in! 
 
 
