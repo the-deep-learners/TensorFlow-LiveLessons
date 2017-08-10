@@ -22,3 +22,9 @@ You can shutdown the Jupyter notebook by returning to the Terminal session that 
 ## Restart
 
 You can restart the Jupyter notebook later by following steps nine and ten alone. 
+
+## With a GPU
+
+1. install the appropriate drivers for your particular GPU and operating system (my notes for running an NVIDIA GPU on an ubuntu box are [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/nvidia_gpu_on_ubuntu.md)
+2. replace step eight above with `sudo docker build -f Dockerfile-GPU -t tfll-gpu-stack .`
+3. whenever running step nine, replace `tensorflow-ll-stack` with `tfll-gpu-stack` 
