@@ -29,10 +29,6 @@ If you have these packages configured as you like them, you can simply:
 
 If you'd like to enjoy the power and flexibility of cloud computing, you can spin up a machine with Google Cloud Compute, Amazon Web Services, Microsoft Azure, or other providers. My rough notes for creating an Ubuntu instance with Google Cloud Compute and launching Dockerized Jupyter notebooks is available [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_GCP_install.md). 
 
-#### Training Models with a GPU
-
-You don't need to train your Deep Learning models with a GPU for these LiveLessons, but some of the later notebooks in these LiveLessons will run much more quickly if you do. My process for running an Nvidia GPU from Dockerized Jupyter notebooks is available [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md#training-models-with-a-gpu). 
-
 
 ## Windows
 
@@ -44,10 +40,6 @@ These steps are for users who installed the [Anaconda](https://www.continuum.io/
 2. Activate the new environment: `C:\> activate tf`. Your prompt should now change to: `(tf) C:\>`
 3. Run `(tf) C:\> pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.2.1-cp35-cp35m-win_amd64.whl`.
 
-#### Install TensorFlow for GPU
-
-As mentioned in the Unix section above, you don't need to train your models with a GPU for these LiveLessons, but some of the later notebooks in these LiveLessons will run much more quickly if you do. Instructions for setting this up are [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/windows_TF_GPU.md).
-
 #### Running Dockerized Jupyter Notebooks
 
 *Currently, instructions for running the these LiveLessons' Jupyter notebooks from within a Docker container are unavailable on Windows. If you have experience doing this, please feel free to make a pull request and fill it in!* 
@@ -55,5 +47,5 @@ As mentioned in the Unix section above, you don't need to train your models with
 
 ## GPU Considerations
 
-Most of the examples in these LiveLessons involve relatively small (in Deep Learning terms) data sets so you should be hunky dory using your CPU alone for training the models. That said, some of the later notebooks in these LiveLessons will train much more quickly if you employ a GPU. Alternatively, you may enjoy leveraging the efficient, highly-parallelised computations that a GPU affords for your own projects. Whatever the reason, here are TensorFlow GPU instructions for [Mac/Unix](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md#with-a-gpu) or [Windows](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/windows_TF_GPU.md).  
+Most of the examples in these LiveLessons involve relatively small (in Deep Learning terms) data sets so you should be hunky dory using your CPU alone for training the models. That said, some of the later notebooks in these LiveLessons will train much more quickly if you employ a GPU. Alternatively, you may enjoy leveraging the efficient, highly-parallelised computations that a GPU affords for your own projects. Whatever the reason, here are TensorFlow GPU instructions for [Mac/Unix](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md#bonus-training-models-with-an-nvidia-gpu) or [Windows](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/windows_TF_GPU.md).  
 
