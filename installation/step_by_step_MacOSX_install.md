@@ -32,6 +32,4 @@ You don't need to train your Deep Learning models with a GPU for these LiveLesso
 2. in the `TensorFlow-LiveLessons/installation/docker-stack-scripts` directory:
 	* run `chmod 777 jupyter_notebook_config.py start*.sh`
 3. replace step eight of my **Install** section above with `sudo docker build -f Dockerfile-gpu -t tfll-gpu-stack .`
-4. whenever running step nine, replace: 
-	* `docker` with `nvidia-docker`
-	* `tensorflow-ll-stack` with `tfll-gpu-stack` 
+4. replace step nine with `sudo nvidia-docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 tfll-gpu-stack`
