@@ -22,3 +22,7 @@ You can shutdown the Jupyter notebook by returning to the Terminal session that 
 ## Restart
 
 You can restart the Jupyter notebook later by following steps nine and ten alone. 
+
+## Training Models with a GPU
+
+You don't need to train your Deep Learning models with a GPU for these LiveLessons, but some of the later notebooks in these LiveLessons will run much more quickly if you do.
