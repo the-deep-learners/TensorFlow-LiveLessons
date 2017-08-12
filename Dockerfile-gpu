@@ -86,10 +86,10 @@ ENTRYPOINT ["tini", "--"]
 CMD ["start-notebook.sh"]
 
 # Add local files as late as possible to avoid cache busting
-COPY docker-stack-scripts/start.sh /usr/local/bin/
-COPY docker-stack-scripts/start-notebook.sh /usr/local/bin/
-COPY docker-stack-scripts/start-singleuser.sh /usr/local/bin/
-COPY docker-stack-scripts/jupyter_notebook_config.py /etc/jupyter/
+COPY installation/docker-stack-scripts/start.sh /usr/local/bin/
+COPY installation/docker-stack-scripts/start-notebook.sh /usr/local/bin/
+COPY installation/docker-stack-scripts/start-singleuser.sh /usr/local/bin/
+COPY installation/docker-stack-scripts/jupyter_notebook_config.py /etc/jupyter/
 RUN chown -R $NB_USER:users /etc/jupyter/
 
 
