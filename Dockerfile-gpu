@@ -5,6 +5,7 @@ MAINTAINER Jon Krohn <jon@untapt.com>
 ENV PATH="/usr/local/cuda-8.0/bin:${PATH}"
 ENV LD_LIBRARY_PATH="/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}"
 
+
 ## from core/Dockerfile-gpu
 # Setup locales
 RUN apt-get clean && apt-get update && apt-get install -y locales
@@ -91,11 +92,88 @@ COPY docker-stack-scripts/start-singleuser.sh /usr/local/bin/
 COPY docker-stack-scripts/jupyter_notebook_config.py /etc/jupyter/
 RUN chown -R $NB_USER:users /etc/jupyter/
 
-# Switch back to jovyan to avoid accidental container runs as root
+
+## the next chunk of code is from jupyter/minimal-notebook 
+
+# Install all OS dependencies for fully functional notebook server
+RUN apt-get update && apt-get install -yq --no-install-recommends \
+    build-essential \
+    emacs \
+    git \
+    inkscape \
+    jed \
+    libsm6 \
+    libxext-dev \
+    libxrender1 \
+    lmodern \
+    pandoc \
+    python-dev \
+    texlive-fonts-extra \
+    texlive-fonts-recommended \
+    texlive-generic-recommended \
+    texlive-latex-base \
+    texlive-latex-extra \
+    texlive-xetex \
+    vim \
+    unzip \
+    && apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+
+## the next chunk of code is from jupyter/scipy-notebook
+
+# libav-tools for matplotlib anim
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends libav-tools && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+USER $NB_USER
+
+# Install Python 3 packages
+# Remove pyqt and qt pulled in for matplotlib since we're only ever going to
+# use notebook-friendly backends in these images
+RUN conda install --quiet --yes \
+    'nomkl' \
+    'ipywidgets=6.0*' \
+    'pandas=0.19*' \
+    'numexpr=2.6*' \
+    'matplotlib=2.0*' \
+    'scipy=0.19*' \
+    'seaborn=0.7*' \
+    'scikit-learn=0.18*' \
+    'scikit-image=0.12*' \
+    'sympy=1.0*' \
+    'cython=0.25*' \
+    'patsy=0.4*' \
+    'statsmodels=0.8*' \
+    'cloudpickle=0.2*' \
+    'dill=0.2*' \
+    'numba=0.31*' \
+    'bokeh=0.12*' \
+    'sqlalchemy=1.1*' \
+    'hdf5=1.8.17' \
+    'h5py=2.6*' \
+    'vincent=0.4.*' \
+    'beautifulsoup4=4.5.*' \
+    'xlrd'  && \
+    conda remove --quiet --yes --force qt pyqt && \
+    conda clean -tipsy
+
+# Activate ipywidgets extension in the environment that runs the notebook server
+RUN jupyter nbextension enable --py widgetsnbextension --sys-prefix
+
+# Import matplotlib the first time to build the font cache.
+ENV XDG_CACHE_HOME /home/$NB_USER/.cache/
+RUN MPLBACKEND=Agg python -c "import matplotlib.pyplot"
+
 USER $NB_USER
 
 
-## the next chunk of code is from jupyter/minimal-notebook 
-## -- see https://github.com/jupyter/docker-stacks/blob/master/LICENSE.md
 
+## Install TensorFlow for GPU
+RUN conda install --quiet --yes 'tensorflow-gpu=1.0*'
 
+## Install high-level TensorFlow APIs
+RUN pip install tflearn
+RUN pip install keras
