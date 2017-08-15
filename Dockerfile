@@ -5,7 +5,6 @@ MAINTAINER Jon Krohn <jon@untapt.com>
 USER $NB_USER
 
 # install TensorFlow
-# ...for Python 3: 
 RUN conda install --quiet --yes 'tensorflow=1.0*'
 
 # install tflearn and keras: 
