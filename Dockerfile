@@ -5,7 +5,7 @@ MAINTAINER Jon Krohn <jon@untapt.com>
 USER $NB_USER
 
 # install TensorFlow
-RUN pip install --quiet 'tensorflow=1.0*'
+RUN pip install --quiet 'tensorflow==1.0*'
 
 # install tflearn and keras: 
 RUN pip install --quiet tflearn==0.3.2
