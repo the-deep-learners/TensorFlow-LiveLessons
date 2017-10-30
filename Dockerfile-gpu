@@ -172,7 +172,7 @@ USER $NB_USER
 
 
 ## Install TensorFlow for GPU
-RUN pip install --quiet 'tensorflow-gpu=1.0*'
+RUN pip install --quiet 'tensorflow-gpu==1.0*'
 
 ## Install high-level TensorFlow APIs
 RUN pip install --quiet tflearn==0.3.2
