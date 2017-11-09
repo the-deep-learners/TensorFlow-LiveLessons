@@ -27,7 +27,7 @@ If you have these packages configured as you like them, you can simply:
 
 #### In a Fresh Cloud Instance
 
-If you'd like to enjoy the power and flexibility of cloud computing, you can spin up a machine with Google Cloud Compute, Amazon Web Services, Microsoft Azure, or other providers. My rough notes for creating an Ubuntu instance with Google Cloud Compute and launching Dockerized Jupyter notebooks are available [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_GCP_install.md). 
+If you'd like to enjoy the power and flexibility of cloud computing, you can spin up a machine with Google Cloud Compute, Amazon Web Services (who conveniently offer a [Deep Learning-specific machine image](https://aws.amazon.com/amazon-ai/amis/)), Microsoft Azure, or other providers. Rough notes for creating an Ubuntu instance with Google Cloud Compute and launching Dockerized Jupyter notebooks are available [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_GCP_install.md). 
 
 
 ## Windows
