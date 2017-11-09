@@ -1,6 +1,6 @@
 # TensorFlow-LiveLessons
 
-This repository is home to the code that accompanies the [Deep Learning with TensorFlow LiveLessons](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) that are available within Safari. A high-level summary of these LiveLessons is available [on Medium](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad). 
+This repository is home to the code that accompanies the [Deep Learning with TensorFlow LiveLessons](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) presented by [Jon Krohn](https://www.jonkrohn.com/) that are available within Safari. A high-level summary of these LiveLessons is available [on Medium](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad). 
 
 ## Prerequisites
 
@@ -198,6 +198,145 @@ Below is the lesson-by-lesson sequence in which I covered them:
 ##### 5.3 Resources for Self-Study
 
 * topics worth investing time in to become an expert deployer of deep learning models
+
+--- 
+
+### [Deep Learning for Natural Language Processing](https://www.safaribooksonline.com/library/view/deep-learning-for/9780134851921/)
+
+#### Lesson One: The Power and Elegance of Deep Learning for NLP
+
+##### 1.1 Introduction to Deep Learning for Natural Language Processing
+
+* high-level overview of deep learning as it pertains to Natural Language Processing (NLP)
+* influential examples of industrial applications of NLP
+* timeline of contemporary breakthroughs that have brought Deep Learning approaches to the forefront of NLP research and development
+
+##### 1.2 Computational Representations of Natural Language Elements
+
+* introduce the elements of natural language
+* contrast how these elements are represented by traditional machine-learning models and emergent deep-learning models
+
+##### 1.3 NLP Applications
+
+* specify common NLP applications and bucket them into three tiers of relative complexity
+
+##### 1.4 Installation, Including GPU Considerations
+
+* build on the [step-by-step installation of TensorFlow on Mac OS X](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md) covered in the [Deep Learning with TensorFlow LiveLessons](https://github.com/the-deep-learners/TensorFlow-LiveLessons/#12-running-the-code-in-these-livelessons) to facilitate the training of deep learning models with an Nvidia GPU. 
+
+##### 1.5 Review of Prerequisite Deep Learning Theory
+
+* summarise the key concepts introduced in the [Deep Learning with TensorFlow LiveLessons](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/), which serve as the foundation for the material introduced in these NLP-focused LiveLessons
+
+##### 1.6 A Sneak Peak
+
+* take a tantalising look ahead at the capabilities developed over the course of these LiveLessons
+
+---
+
+#### Lesson Two: Word Vectors
+
+##### 2.1 Vector-Space Embedding
+
+* leverage interactive demos to enable an intuitive understanding of vector-space embeddings of words, nuanced quantitative representations of word meaning
+
+##### 2.2 word2vec
+
+* key papers that led to the development of word2vec, a technique for transforming natural language into vector representations
+* essential word2vec theory introduced:
+  * architectures:
+    1. Skip-Gram
+    2. Continuous Bag of Words
+  * training algorithms:
+    1. hierarchical softmax
+    2. negative sampling
+  * evaluation perspectives:
+    1. intrinsic
+    2. extrinsic
+  * hyperparameters:
+    1. number of dimensions
+    2. context-word window size
+    3. number of iterations
+    4. size of data set
+* contrast word2vec with its leading alternative, [GloVe](https://nlp.stanford.edu/projects/glove/)
+
+##### 2.3 Data Sets for NLP
+
+* pre-trained word vectors:
+  * for [word2vec](https://code.google.com/archive/p/word2vec/)
+  * for [GloVe](http://nlp.stanford.edu/projects/glove/)
+* natural language data sets:
+  * Jon Krohn's [resources page](https://www.jonkrohn.com/resources/)
+  * [Zhang, Zhao and LeCun's](https://arxiv.org/pdf/1509.01626.pdf) [labelled data](http://xzh.me/)
+  * Internet Movie DataBase (IMDB) reviews classified by sentiment from [Andrew Maas and his Stanford colleagues (2011)](http://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf)
+  
+##### 2.4 Creating Word Vectors with word2vec
+
+* use books from [Project Gutenberg](https://www.gutenberg.org/) to create word vectors with word2vec
+* interactively visualise the word vectors with the [bokeh](https://bokeh.pydata.org/en/latest/) library ([creating_word_vectors_with_word2vec.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/creating_word_vectors_with_word2vec.ipynb))
+
+---
+
+#### Lesson Three: Modeling Natural Language Data
+
+##### 3.1 Best Practices for Preprocessing Natural Language Data
+
+* in [natural_language_preprocessing_best_practices.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/natural_language_preprocessing_best_practices.ipynb), apply the following recommended best practices to clean up a corpus natural language data prior to modeling: 
+  * tokenize
+  * convert all characters to lowercase
+  * remove stopwords
+  * remove punctuation
+  * stem words
+  * handle bigram (and trigram) word collocations
+  
+##### 3.2 The Area Under the ROC Curve
+
+* detail the calculation and functionality of the area under the Receiver Operating Characteristic curve summary metric, which is used throughout the remainder of the LiveLessons for evaluating model performance
+
+##### 3.3 Dense Neural Network Classification
+
+* pair vector-space embedding with the fundamentals of deep learning introduced in the [Deep Learning with TensorFlow LiveLessons](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) to create a dense neural network for classifying documents by their sentiment ([dense_sentiment_classifier.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/dense_sentiment_classifier.ipynb))
+
+##### 3.4 Convolutional Neural Network Classification
+
+* add convolutional layers to the deep learning architecture to improve the performance of the natural language classifying model ([convolutional_sentiment_classifier.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/convolutional_sentiment_classifier.ipynb))
+
+---
+
+#### Lesson Four: Recurrent Neural Networks
+
+##### 4.1 Essential Theory of RNNs
+
+* provide an intuitive understanding of Recurrent Neural Networks (RNNs), which permit backpropagation through time over sequential data, such as natural language and financial time series data
+
+##### 4.2 RNNs in Practice
+
+* incorporate simple RNN layers into a model that classifies documents by their sentiment ([rnn_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/rnn_in_keras.ipynb)
+
+##### 4.3 Essential Theory of LSTMs and GRUs
+
+* develop familiarity with the Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) varieties of RNNs which provide markedly more productive modeling of sequential data with deep learning models
+
+##### 4.4 LSTMs and GRUs in Practice
+
+* straightforwardly build LSTM ([vanilla_lstm_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/vanilla_lstm_in_keras.ipynb)) and GRU ([gru_in_keras.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/gru_in_keras.ipynb)) deep learning architectures through the Keras high-level API 
+
+--- 
+
+#### Lesson Five: Advanced Models
+
+##### 5.1 Bi-Directional LSTMs
+
+* Bi-directional LSTMs are an especially potent variant of the LSTM
+* high-level theory on Bi-LSTMs before leveraging them in practice ([bidirectional_lstm.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/bidirectional_lstm.ipynb))
+
+##### 5.2 Stacked LSTMs
+
+* Bi-LSTMs are stacked to enable deep learning networks to model increasingly abstract representations of language ([stacked_bidirectional_lstm.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/stacked_bidirectional_lstm.ipynb); [ye_olde_conv_lstm_stackeroo.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/ye_olde_conv_lstm_stackeroo.ipynb))
+
+##### 5.3 Parallel Network Architectures
+
+* learn that beyond purely sequential neural network architectures, advanced model capabilities are possible with non-sequential architectures, e.g., involving parallel convolutional layers -- each with unique hyperparameters ([multi_convnet_architectures.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/multi_convnet_architectures.ipynb))
 
 ---
 ---
