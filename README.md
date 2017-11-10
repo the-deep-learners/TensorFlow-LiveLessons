@@ -338,7 +338,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 ##### 5.3 Parallel Network Architectures
 
-* learn that beyond purely sequential neural network architectures, advanced model capabilities are possible with non-sequential architectures, e.g., involving parallel convolutional layers -- each with unique hyperparameters ([multi_convnet_architectures.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/multi_convnet_architectures.ipynb))
+* advanced data modeling capabilities are possible with non-sequential architectures, e.g., parallel convolutional layers, each with unique hyperparameters ([multi_convnet_architectures.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/multi_convnet_architectures.ipynb))
 
 ---
 ---
