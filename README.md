@@ -1,6 +1,9 @@
 # TensorFlow-LiveLessons
 
-This repository is home to the code that accompanies the acclaimed [Deep Learning with TensorFlow](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) and [Deep Learning for Natural Language Processing](https://www.safaribooksonline.com/library/view/deep-learning-for/9780134851921/) LiveLessons presented by [Jon Krohn](https://www.jonkrohn.com/). A high-level summary of these LiveLessons is available [on Medium](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad). 
+This repository is home to the code that accompanies [Jon Krohn's](https://www.jonkrohn.com/):
+
+1. [Deep Learning with TensorFlow](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) LiveLessons (summary blog post [here](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad))
+2. [Deep Learning for Natural Language Processing](https://www.safaribooksonline.com/library/view/deep-learning-for/9780134851921/) LiveLessons (summary blog post [here](https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f))
 
 ## Prerequisites
 
