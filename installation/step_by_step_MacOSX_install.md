@@ -1,5 +1,7 @@
 # Step-by-Step Instructions for Mac OS X
 
+These instructions enable you to run TensorFlow code from the comfort of interactive Jupyter notebooks. Jupyter is itself run from within a Docker container because this ensures that you'll have all of the software dependencies you need while simultaneously preventing these dependencies from clashing with the software you already have installed on your system. 
+
 ## Install
 
 1. Open the Terminal application ([like this](http://www.wikihow.com/Open-a-Terminal-Window-in-Mac))
@@ -12,7 +14,7 @@
 6. Back in Terminal, execute `source TensorFlow-LiveLessons/installation/let_jovyan_write.sh` so that you can write to files in the *TensorFlow-LiveLessons* directory from inside the Docker container we'll be creating momentarily 
 7. Move into the *TensorFlow-LiveLessons* directory by executing `cd TensorFlow-LiveLessons`
 8. Build the Docker container by executing `sudo docker build -t tensorflow-ll-stack .` (you'll get an error if you miss the final `.`!)
-9. When that build process has finished, run the Docker container by executing `sudo docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 tensorflow-ll-stack`
+9. When that build process has finished, run the Docker container by executing `sudo docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 tensorflow-ll-stack` (if you modified steps two or three above, e.g., by running `git clone` somewhere other than your home `~` directory, then you will need to similarly modify the `~/TensorFlow-LiveLessons` directory location portion of this command)
 10. In the web browser of your choice (e.g., Chrome), copy and paste the URL created by Docker (this begins with `http://localhost:8888/?token=` and should be visible near the bottom of your Terminal window) 
 
 ## Shutdown
