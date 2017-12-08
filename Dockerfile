@@ -14,3 +14,6 @@ RUN pip install keras==2.0.8
 # install NLP packages:
 RUN pip install nltk==3.2.4
 RUN pip install gensim==2.3.0
+
+# install Reinforcement Learning packages:
+RUN pip install gym==0.9.4
