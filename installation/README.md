@@ -32,7 +32,7 @@ If you'd like to enjoy the power and flexibility of cloud computing, you can spi
 
 ## Windows
 
-These steps are for users who installed the [Anaconda](https://www.continuum.io/downloads) Python 3 distribution, but other such distributions (e.g., [WinPython](https://winpython.github.io/), [Canopy](https://store.enthought.com/downloads/)) should work too. 
+These steps are for users who installed the [Anaconda](https://www.continuum.io/downloads) Python 3 distribution, but other such distributions (e.g., [WinPython](https://winpython.github.io/), [Canopy](https://store.enthought.com/downloads/)). Simple step-by-step instructions for installing Anaconda are provided [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/simple_Windows_Anaconda_install.md).
 
 #### Install TensorFlow for CPU
 
