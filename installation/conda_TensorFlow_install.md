@@ -1,4 +1,4 @@
-# Install TensorFlow a Conda Virtual Environment
+# Install TensorFlow in a Conda Virtual Environment
 
 These steps are for users who have already installed the [Anaconda](https://www.continuum.io/downloads) Python 3 distribution, but other such distributions (e.g., [WinPython](https://winpython.github.io/), [Canopy](https://store.enthought.com/downloads/)) should work as well.
 
