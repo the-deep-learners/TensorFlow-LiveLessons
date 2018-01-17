@@ -42,8 +42,6 @@ These steps are for users who installed the [Anaconda](https://www.continuum.io/
 
 #### Running Dockerized Jupyter Notebooks
 
-*These instructions are a work in progress and do not yet get a working installation.*
-
 In order to use Docker on Windows, you will need a 64-bit installation of Windows 10 Professional or Enterprise.
 
 1. Install [Docker Community Edition for Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows). You may need to log out and/or reboot to complete the installation.
