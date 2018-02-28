@@ -27,7 +27,7 @@ You can restart the Jupyter notebook later by following steps nine and ten alone
 
 ## Bonus: Training Models with an Nvidia GPU
 
-You don't need to train your Deep Learning models with a GPU for these LiveLessons, but some of the later notebooks in these LiveLessons will run much more quickly if you do. 
+You don't need to train your Deep Learning models with a GPU for this course, but some of the later notebooks in these LiveLessons will run much more quickly if you do. 
 
 1. Install an [Nvidia GPU](http://www.nvidia.com/content/global/global.php) on your machine or spin up a cloud instance that includes one (typically a Tesla K80)
 1. Install CUDA and cuDNN, e.g., per the **Installing CUDA Toolkit** and **Installing cuDNN** sections of [this blog post](https://hackernoon.com/launch-a-gpu-backed-google-compute-engine-instance-and-setup-tensorflow-keras-and-jupyter-902369ed5272) (this step may be tricky if you're relatively new to working with the Unix command line)
