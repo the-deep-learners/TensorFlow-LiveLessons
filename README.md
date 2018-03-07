@@ -350,6 +350,8 @@ Below is the lesson-by-lesson sequence in which I covered them:
 --- 
 ---
 
+![](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/img/paint.jpg)
+
 ### [Deep Reinforcement Learning and GANs](https://www.safaribooksonline.com/library/view/deep-reinforcement-learning/9780135171233/)
 
 #### Lesson One: The Foundations of Artificial Intelligence
@@ -388,8 +390,6 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 --- 
 
-![](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/img/paint.jpg)
-
 #### Lesson Two: Generative Adversarial Networks (GANs)
 
 ##### 2.1 Essential GAN Theory
@@ -414,9 +414,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 --- 
 
-![](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/img/game.jpg)
-
-#### Lesson Three: Generative Adversarial Networks (GANs)
+#### Lesson Three: Deep Q-Learning Networks (DQNs)
 
 ##### 3.1 The Cartpole Game
 
