@@ -4,6 +4,7 @@ This repository is home to the code that accompanies [Jon Krohn's](https://www.j
 
 1. [Deep Learning with TensorFlow](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) LiveLessons (summary blog post [here](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad))
 2. [Deep Learning for Natural Language Processing](https://www.safaribooksonline.com/library/view/deep-learning-for/9780134851921/) LiveLessons (summary blog post [here](https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f))
+3. [Deep Reinforcement Learning and GANs](https://www.safaribooksonline.com/library/view/deep-reinforcement-learning/9780135171233/) LiveLessons
 
 ## Prerequisites
 
@@ -342,6 +343,15 @@ Below is the lesson-by-lesson sequence in which I covered them:
 ##### 5.3 Parallel Network Architectures
 
 * advanced data modeling capabilities are possible with non-sequential architectures, e.g., parallel convolutional layers, each with unique hyperparameters ([multi_convnet_architectures.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/multi_convnet_architectures.ipynb))
+
+
+
+--- 
+
+### [Deep Reinforcement Learning and GANs](https://www.safaribooksonline.com/library/view/deep-reinforcement-learning/9780135171233/)
+
+* Generative Adversarial Networks ([generative_adversarial_network.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/generative_adversarial_network.ipynb))
+* Deep Reinforcement Learning ([cartpole_dqn.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/cartpole_dqn.ipynb))
 
 ---
 ---
