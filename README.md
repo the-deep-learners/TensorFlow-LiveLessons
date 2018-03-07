@@ -205,7 +205,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 --- 
 
-![](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/book.jpg)
+![](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/img/book.jpg)
 
 ### [Deep Learning for Natural Language Processing](https://www.safaribooksonline.com/library/view/deep-learning-for/9780134851921/)
 
