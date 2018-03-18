@@ -470,7 +470,7 @@ Below is the lesson-by-lesson sequence in which I covered them:
 
 ##### 5.3 Software 2.0
 
-* disuss how deep learning is ushering in a new era of software development driven by data in place of hard-coded rules
+* discuss how deep learning is ushering in a new era of software development driven by data in place of hard-coded rules
 
 ##### 5.4 Approaching Artificial General Intelligence
 
