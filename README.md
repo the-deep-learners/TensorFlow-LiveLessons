@@ -4,6 +4,7 @@ This repository is home to the code that accompanies [Jon Krohn's](https://www.j
 
 1. [Deep Learning with TensorFlow](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) LiveLessons (summary blog post [here](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad))
 2. [Deep Learning for Natural Language Processing](https://www.safaribooksonline.com/library/view/deep-learning-for/9780134851921/) LiveLessons (summary blog post [here](https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f))
+3. [Deep Reinforcement Learning and GANs](https://www.safaribooksonline.com/library/view/deep-reinforcement-learning/9780135171233/) LiveLessons
 
 ## Prerequisites
 
@@ -203,8 +204,9 @@ Below is the lesson-by-lesson sequence in which I covered them:
 * topics worth investing time in to become an expert deployer of deep learning models
 
 --- 
+---
 
-![](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/book.jpg)
+![](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/img/book.jpg)
 
 ### [Deep Learning for Natural Language Processing](https://www.safaribooksonline.com/library/view/deep-learning-for/9780134851921/)
 
@@ -342,6 +344,137 @@ Below is the lesson-by-lesson sequence in which I covered them:
 ##### 5.3 Parallel Network Architectures
 
 * advanced data modeling capabilities are possible with non-sequential architectures, e.g., parallel convolutional layers, each with unique hyperparameters ([multi_convnet_architectures.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/multi_convnet_architectures.ipynb))
+
+
+
+--- 
+---
+
+![](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/img/paint.jpg)
+
+### [Deep Reinforcement Learning and GANs](https://www.safaribooksonline.com/library/view/deep-reinforcement-learning/9780135171233/)
+
+#### Lesson One: The Foundations of Artificial Intelligence
+
+##### 1.1 The Contemporary State of AI
+
+* examine what the term "Artificial Intelligence" means and how it relates to deep learning
+* define *narrow*, *general*, and *super* intelligence
+
+##### 1.2 Applications of Generative Adversarial Networks
+
+* uncover the rapidly-improving quality of Generative Adversarial Networks for creating compelling novel imagery in the style of humans
+* involves the fun, interactive [pix2pix](https://affinelayer.com/pixsrv/) tool
+
+##### 1.3 Applications of Deep Reinforcement Learning
+
+* distinguish *supervised* and *unsupervised learning* from *reinforcement learning*
+* provide an overview of the seminal contemporary deep reinforcement learning breakthroughs, including: 
+	* the Deep Q-Learning algorithm
+	* AlphaGo
+	* AlphaGo Zero
+	* AlphaZero
+	* robotics advances
+* introduce the most popular deep reinforcement learning environments:
+	* [OpenAI Gym](github.com/openai/gym)
+	* [DeepMind Lab](github.com/deepmind/lab)
+	* [Unity](github.com/Unity-Technologies/ml-agents)
+
+##### 1.4 Running the Code in these LiveLessons
+
+* review the [step-by-step installation of TensorFlow on Mac OS X](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md) detailed in the [Deep Learning with TensorFlow LiveLessons](https://github.com/the-deep-learners/TensorFlow-LiveLessons/#12-running-the-code-in-these-livelessons)
+
+##### 1.5 Review of Prerequisite Deep Learning Theory
+
+* summarise the key concepts introduced in the [Deep Learning with TensorFlow LiveLessons](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/), which serve as the foundation for the material introduced in these advanced-topics LiveLessons
+
+--- 
+
+#### Lesson Two: Generative Adversarial Networks (GANs)
+
+##### 2.1 Essential GAN Theory
+
+* cover the high-level theory of what GANs are and how they are able to generate realistic-looking images
+
+##### 2.2 The “Quick, Draw!” Game Dataset
+
+* show the [Quick, Draw! game](https://quickdraw.withgoogle.com/), which we use as the source of hundreds of thousands of hand-drawn images from a single class for a GAN to learn to imitate
+
+##### 2.3 A Discriminator Network
+
+* build the discriminator component of a GAN ([generative_adversarial_network.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/generative_adversarial_network.ipynb))
+
+##### 2.4 A Generator Network
+
+* build the generator component of a GAN ([generative_adversarial_network.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/generative_adversarial_network.ipynb) continued)
+
+##### 2.5 Training an Adversarial Network
+
+* pit the generator and discriminator networks against each other as adversaries ([generative_adversarial_network.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/generative_adversarial_network.ipynb) completed)
+
+--- 
+
+#### Lesson Three: Deep Q-Learning Networks (DQNs)
+
+##### 3.1 The Cartpole Game
+
+* introduce the [Cartpole Game](https://github.com/openai/gym/wiki/CartPole-v0), an environment provided by OpenAI and used throughout the remainder these LiveLessons to train deep reinforcement learning algorithms
+
+##### 3.2 Essential Deep RL Theory
+
+* delve into the essential theory of deep reinforcement learning in general
+
+##### 3.3 Essential DQN Theory
+
+* delve into the essential theory of Deep Q-Learning networks, a popular, particular type of deep reinforcement learning algorithm
+
+##### 3.4 Defining a DQN Agent
+
+* define a Deep Q-Learning agent from scratch ([cartpole_dqn.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/cartpole_dqn.ipynb))
+
+##### 3.5 Interacting with an OpenAI Gym Environment
+
+* leverage OpenAI Gym to enable our Deep Q-Learning agent to master the Cartpole Game ([cartpole_dqn.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/cartpole_dqn.ipynb) completed)
+
+--- 
+
+#### Lesson Four: OpenAI Lab
+
+##### 4.1 Visualizing Agent Performance
+
+* use the [OpenAI Lab](https://github.com/kengz/openai_lab) to visualise our Deep Q-Learning agent's performance in real-time
+
+##### 4.2 Modifying Agent Hyperparameters
+
+* learn to straightforwardly optimise a deep reinforcement learning agent's hyperparameters
+
+##### 4.3 Automated Hyperparameter Experimentation and Optimization
+
+* automate the search through hyperparameters to optimize our agent’s performance
+
+##### 4.4 Fitness
+
+* calculate summary metrics to gauge our agent’s overall fitness
+
+--- 
+
+#### Lesson Five: Advanced Deep Reinforcement Learning Agents
+
+##### 5.1 Policy Gradients and the REINFORCE Algorithm
+
+* at a high level, discover Policy Gradient algorithms in general and the classic REINFORCE implementation in particular
+
+##### 5.2 The Actor-Critic Algorithm
+
+* cover how Policy Gradients can be combined with Deep Q-Learning to facilitate the Actor-Critic algorithms
+
+##### 5.3 Software 2.0
+
+* discuss how deep learning is ushering in a new era of software development driven by data in place of hard-coded rules
+
+##### 5.4 Approaching Artificial General Intelligence
+
+* return to our discussion of Artificial Intelligence, specifically addressing the limitations of modern deep learning approaches
 
 ---
 ---

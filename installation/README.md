@@ -9,15 +9,7 @@ Detailed step-by-step instructions for running the code notebooks for these Live
 
 #### Where You Already Have the Dependencies
 
-The dependencies are provided in this repository's [Dockerfile](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/Dockerfile). They are: 
-
-* the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook) 
-* TensorFlow
-* Keras
-* tflearn
-
-If you have these packages configured as you like them, you can simply:
-
+The dependencies are provided in this repository's [Dockerfile](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/Dockerfile). If you have these packages configured as you like them, you can simply:
 `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
 
 #### Where You Are Missing Dependencies
