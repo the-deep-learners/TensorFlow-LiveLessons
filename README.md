@@ -4,7 +4,9 @@ This repository is home to the code that accompanies [Jon Krohn's](https://www.j
 
 1. [Deep Learning with TensorFlow](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) LiveLessons (summary blog post [here](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad))
 2. [Deep Learning for Natural Language Processing](https://www.safaribooksonline.com/library/view/deep-learning-for/9780134851921/) LiveLessons (summary blog post [here](https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f))
-3. [Deep Reinforcement Learning and GANs](https://www.safaribooksonline.com/library/view/deep-reinforcement-learning/9780135171233/) LiveLessons
+3. [Deep Reinforcement Learning and GANs](https://www.safaribooksonline.com/library/view/deep-reinforcement-learning/9780135171233/) LiveLessons (summary blog post [here](https://insights.untapt.com/deep-reinforcement-learning-and-generative-adversarial-networks-tutorials-with-jupyter-notebooks-6ef4dc6957ea))
+
+**The above order is the recommended sequence in which to undertake these LiveLessons.** That said, *Deep Learning with TensorFlow* is a sufficient prerequisite both other LiveLessons.
 
 ## Prerequisites
 
