@@ -77,9 +77,9 @@ Below is the lesson-by-lesson sequence in which I covered them:
 * cost functions
     * quadratic
     * cross-entropy ([cross_entropy_cost.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/cross_entropy_cost.ipynb))
-  * gradient descent
-  * backpropagation via the chain rule
-  * layer types
+* gradient descent
+* backpropagation via the chain rule
+* layer types
     * input
     * dense / fully-connected
     * softmax output ([softmax_demo.ipynb](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/notebooks/softmax_demo.ipynb))
