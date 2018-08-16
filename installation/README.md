@@ -13,9 +13,13 @@ The dependencies are provided in this repository's [Dockerfile](https://github.c
 `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
 
 You can build the image from the Dockerfile:
+
 `cd TensorFlow-LiveLessons` 
+
 `docker image build .`
+
 If you have all the requirements (ie Nvidia card, drivers...) to use tensorflow-gpu, you can also build from the GPU Dockerfile:
+
 `docker image build -f Dockerfile-gpu .`
 
 Instead of building the image yourself, you can pull it from a repo.
