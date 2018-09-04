@@ -12,23 +12,6 @@ Detailed step-by-step instructions for running the code notebooks for these Live
 The dependencies are provided in this repository's [Dockerfile](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/Dockerfile). If you have these packages configured as you like them, you can simply:
 `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
 
-You can build the image from the Dockerfile:
-
-`cd TensorFlow-LiveLessons` 
-
-`docker image build .`
-
-If you have all the requirements (ie Nvidia card, drivers...) to use tensorflow-gpu, you can also build from the GPU Dockerfile:
-
-`docker image build -f Dockerfile-gpu .`
-
-Instead of building the image yourself, you can pull it from a repo.
-Non-GPU version:
-docker pull godot80/tf-livelessons-no-gpu:latest
-GPU version:
-docker pull godot80/tf-livelessons-no-gpu:latest
-
-
 #### Where You Are Missing Dependencies
 
 1. Get Docker CE for, e.g., [Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
