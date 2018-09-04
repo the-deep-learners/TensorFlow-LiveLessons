@@ -35,3 +35,10 @@ You don't need to train your Deep Learning models with a GPU for this course, bu
 	* run `chmod 777 jupyter_notebook_config.py start*.sh`
 3. Replace step eight of my **Install** section above with `sudo docker build -f Dockerfile-gpu -t tfll-gpu-stack .`
 4. Replace step nine with `sudo nvidia-docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 tfll-gpu-stack`
+
+## Bonus: Using a Pre-Built Docker Image
+
+Instead of building a Docker image on your own machine, Godefroy Clair is kindly hosting a pre-built Docker image. In place of the `sudo docker build...` steps in the above instructions, you could instead run: 
+
+* `docker pull godot80/tf-livelessons-no-gpu:latest` for the CPU-only version, or
+* `docker pull godot80/tf-livelessons:latest` for the Nvidia GPU version
