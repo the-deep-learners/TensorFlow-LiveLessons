@@ -14,7 +14,7 @@ These instructions enable you to run TensorFlow code from the comfort of interac
 6. Back in Terminal, execute `source TensorFlow-LiveLessons/installation/let_jovyan_write.sh` so that you can write to files in the *TensorFlow-LiveLessons* directory from inside the Docker container we'll be creating momentarily 
 7. Move into the *TensorFlow-LiveLessons* directory by executing `cd TensorFlow-LiveLessons`
 8. Build the Docker container by executing `sudo docker build -t tensorflow-ll-stack .` (you'll get an error if you miss the final `.`!)
-9. When that build process has finished, run the Docker container by executing `sudo docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 tensorflow-ll-stack` (if you modified steps two or three above, e.g., by running `git clone` somewhere other than your home `~` directory, then you will need to similarly modify the `~/TensorFlow-LiveLessons` directory location portion of this command)
+9. When that build process has finished, run the Docker container by executing `sudo docker run -v $(pwd):/home/jovyan/work -it --rm -p 8888:8888 tensorflow-ll-stack`
 10. In the web browser of your choice (e.g., Chrome), copy and paste the URL created by Docker (this begins with `http://localhost:8888/?token=` and should be visible near the bottom of your Terminal window) 
 
 ## Shutdown
@@ -34,7 +34,7 @@ You don't need to train your Deep Learning models with a GPU for this course, bu
 2. In the `TensorFlow-LiveLessons/installation/docker-stack-scripts` directory:
 	* run `chmod 777 jupyter_notebook_config.py start*.sh`
 3. Replace step eight of my **Install** section above with `sudo docker build -f Dockerfile-gpu -t tfll-gpu-stack .`
-4. Replace step nine with `sudo nvidia-docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 tfll-gpu-stack`
+4. Replace step nine with `sudo nvidia-docker run -v $(pwd):/home/jovyan/work -it --rm -p 8888:8888 tfll-gpu-stack`
 
 ## Bonus: Using a Pre-Built Docker Image
 
