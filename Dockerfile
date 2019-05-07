@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/scipy-notebook:e7000ca1416d
 
 MAINTAINER Jon Krohn <jon@untapt.com>
 
