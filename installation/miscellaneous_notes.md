@@ -22,3 +22,8 @@
 3. `sudo docker build -t <NEW_NAME> .`
 4. `sudo docker run -v ~/TensorFlow-LiveLessons:/home/jovyan/work -it --rm -p 8888:8888 <NEW_NAME>`
 
+#### to remove Docker images: 
+
+* `sudo docker image ls` to view images
+* `sudo docker rmi <IMAGE_NAME>` to remove [script to identify descendants](https://gist.github.com/altaurog/21ea7afe578a523e3dfe8d8a746f1e7d)
+* `sudo docker image prune -a` to remove all images without at least one container associated to them
