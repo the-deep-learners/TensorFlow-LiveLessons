@@ -1,5 +1,7 @@
 # TensorFlow-LiveLessons
 
+**Note that the second edition of this video series is now available [here](https://github.com/jonkrohn/DLTFpT/). The second edition contains all of the content from this (first) edition plus quite a bit more, as well as updated library versions.**
+
 This repository is home to the code that accompanies [Jon Krohn's](https://www.jonkrohn.com/):
 
 1. [Deep Learning with TensorFlow](https://www.safaribooksonline.com/library/view/deep-learning-with/9780134770826/) LiveLessons (summary blog post [here](https://medium.com/@jjpkrohn/filming-deep-learning-with-tensorflow-livelessons-for-oreilly-safari-50363ed4efad))
